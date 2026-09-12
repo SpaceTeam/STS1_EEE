@@ -5824,7 +5824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617ac8f5")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR05"
 			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5884,7 +5884,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0105")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5901,7 +5901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617acff5")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR06"
 			(at 81.28 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5961,7 +5961,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0106")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5978,7 +5978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617ad547")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR07"
 			(at 91.44 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6038,7 +6038,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0107")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6055,7 +6055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617adefd")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR08"
 			(at 91.44 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6115,7 +6115,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0108")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6132,7 +6132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617ae72f")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR09"
 			(at 81.28 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6192,7 +6192,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0109")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6209,7 +6209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617b045a")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR011"
 			(at 81.28 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6269,7 +6269,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0111")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6286,7 +6286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617b9d0c")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR013"
 			(at 81.28 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6346,7 +6346,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0113")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000617ba312")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR014"
 			(at 81.28 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6423,7 +6423,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0114")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6440,7 +6440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062965f60")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR010"
 			(at 81.28 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6500,7 +6500,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0110")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6517,7 +6517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006298b185")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR012"
 			(at 81.28 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6577,7 +6577,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0112")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6594,7 +6594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e3a37cc-649d-4162-9a1d-bb6ac88e4f10")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR028"
 			(at 215.9 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6654,7 +6654,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0120")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6671,7 +6671,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e8f8f01-589d-4167-a639-7cdc60bc6d1d")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR018"
 			(at 158.75 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6730,7 +6730,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR043")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6747,7 +6747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26839d1b-6b0b-4caf-9edf-aa9af8bfc1f8")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR029"
 			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6807,7 +6807,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0121")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6824,7 +6824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b43f70-aeb6-4ca6-bf43-95fa569e71c5")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR019"
 			(at 158.75 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6883,7 +6883,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR044")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6900,7 +6900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ddebf17-0482-4e06-9571-659419128892")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR020"
 			(at 158.75 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6959,7 +6959,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR045")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7061,7 +7061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e4b4c8a-11f8-4814-8421-3caf755ba231")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR027"
 			(at 215.9 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7121,7 +7121,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0119")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7138,7 +7138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83f6c451-81ed-4552-afe7-703f843d0b71")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR016"
 			(at 107.95 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -7198,7 +7198,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0126")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7215,7 +7215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91ce4767-1ff2-430d-a79c-e522dbd8d1ce")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR025"
 			(at 215.9 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7275,7 +7275,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0118")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7292,7 +7292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cb358cf-6664-4600-ba17-f1469322fff7")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR015"
 			(at 107.95 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -7352,7 +7352,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0125")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2484c31-78da-40c1-b2b8-742b61b6ca27")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR023"
 			(at 191.77 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7428,7 +7428,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR040")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7445,7 +7445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3b143fd-83f5-48af-8c4d-6f0cc0b92263")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR030"
 			(at 248.92 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7505,7 +7505,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0122")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7522,7 +7522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad3099ac-efdd-4c20-9adf-6dcbf9340757")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR026"
 			(at 215.9 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7582,7 +7582,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0117")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7599,7 +7599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b29fcc7f-6478-4a50-874c-db6ffc0393de")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR017"
 			(at 158.75 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7658,7 +7658,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR042")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7675,7 +7675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6bb1ec0-2083-4942-bf18-441472b950de")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR031"
 			(at 248.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7735,7 +7735,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0123")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4cb9d72-ef55-4f88-9e81-30e49b34329c")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 175.26 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +7773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7929,7 +7929,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7947,7 +7947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4cd2c4e-3b27-40a5-b0c6-93eb7ed9e92c")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 232.41 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical"
 			(at 231.14 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8123,7 +8123,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8140,7 +8140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d40be68e-b230-42e6-ac74-c9ef0f4bfa56")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR022"
 			(at 191.77 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8199,7 +8199,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR039")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8216,7 +8216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df3807ac-74da-44c3-a619-78b4ae9b3eb9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR032"
 			(at 248.92 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8276,7 +8276,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR0124")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c40389-ff05-45ab-8ad8-97bc1240f795")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR024"
 			(at 191.77 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8352,7 +8352,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR041")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8369,7 +8369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc80ae62-84cb-44fa-99d0-2b955801893b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR021"
 			(at 158.75 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8428,7 +8428,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR046")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

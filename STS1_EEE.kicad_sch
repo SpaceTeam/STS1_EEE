@@ -553,7 +553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602e4ce1")
-		(property "Reference" "FID2"
+		(property "Reference" "FID3"
 			(at 35.179 14.0716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -610,7 +610,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "FID2")
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -627,7 +627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602e4f2b")
-		(property "Reference" "FID3"
+		(property "Reference" "FID5"
 			(at 50.419 14.0716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -684,7 +684,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "FID3")
+					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -701,7 +701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602e5011")
-		(property "Reference" "FID4"
+		(property "Reference" "FID7"
 			(at 64.389 14.0716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -758,7 +758,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "FID4")
+					(reference "FID7")
 					(unit 1)
 				)
 			)
@@ -1083,7 +1083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602ece6b")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR04"
 			(at 87.63 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1142,7 +1142,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "#PWR0101")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1159,7 +1159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602ed270")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR03"
 			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1218,7 +1218,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "#PWR0102")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1235,7 +1235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602ed658")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR02"
 			(at 40.64 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1294,7 +1294,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "#PWR0103")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1311,7 +1311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602edb95")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR01"
 			(at 17.78 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1370,7 +1370,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "#PWR0104")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1461,7 +1461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618302cc")
-		(property "Reference" "FID5"
+		(property "Reference" "FID2"
 			(at 19.939 19.1516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1518,7 +1518,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "FID5")
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -1535,7 +1535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618302d2")
-		(property "Reference" "FID6"
+		(property "Reference" "FID4"
 			(at 35.179 19.1516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1592,7 +1592,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "FID6")
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -1609,7 +1609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618302d8")
-		(property "Reference" "FID7"
+		(property "Reference" "FID6"
 			(at 50.419 19.1516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1666,7 +1666,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "FID7")
+					(reference "FID6")
 					(unit 1)
 				)
 			)
@@ -1757,7 +1757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09f5a2b9-bad9-443e-beb1-edb99f38a00a")
-		(property "Reference" "U10"
+		(property "Reference" "U2"
 			(at 132.7912 17.2466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1814,7 +1814,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a"
-					(reference "U10")
+					(reference "U2")
 					(unit 1)
 				)
 			)
