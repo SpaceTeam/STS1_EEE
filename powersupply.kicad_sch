@@ -7334,7 +7334,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS1_3V3:MCP1725-3302E&slash_MC"
+		(property "Footprint" "STS_EEE:MCP1725-3302E&slash_MC"
 			(at 95.25 118.364 0)
 			(hide yes)
 			(show_name no)

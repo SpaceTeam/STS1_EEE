@@ -4871,7 +4871,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "Pi_3V3"
 		(shape input)
 		(at 242.57 44.45 0)
 		(fields_autoplaced yes)
@@ -4883,7 +4883,7 @@
 		)
 		(uuid "35421024-41a5-4691-ba24-efe609ae3661")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.4086 44.45 0)
+			(at 251.251 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5159,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "Pi_3V3"
 		(shape input)
 		(at 185.42 44.45 0)
 		(fields_autoplaced yes)
@@ -5171,7 +5171,7 @@
 		)
 		(uuid "7148887d-0132-4bff-9f55-785e9bec7072")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.2586 44.45 0)
+			(at 194.101 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5399,7 +5399,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "Pi_3V3"
 		(shape input)
 		(at 242.57 64.77 0)
 		(fields_autoplaced yes)
@@ -5411,7 +5411,7 @@
 		)
 		(uuid "a6c649c0-5616-4e91-b633-20ef703a6289")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.4086 64.77 0)
+			(at 251.251 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
