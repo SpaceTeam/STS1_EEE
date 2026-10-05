@@ -5567,7 +5567,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "VBUS"
 		(shape input)
 		(at 222.25 44.45 180)
 		(fields_autoplaced yes)
@@ -5579,7 +5579,7 @@
 		)
 		(uuid "f487d316-e0ff-4e57-822e-b51bb10781b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.6209 44.45 0)
+			(at 215.0204 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +7773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
 			(at 173.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7967,7 +7967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
 			(at 231.14 67.31 0)
 			(hide yes)
 			(show_name no)
