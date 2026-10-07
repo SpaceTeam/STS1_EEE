@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=1048P
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2017-11-14 16:34:06
+Downloaded=2026-10-06 22:44:31
+3D=Y

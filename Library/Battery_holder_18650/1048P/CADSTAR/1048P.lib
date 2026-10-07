@@ -1,0 +1,16 @@
+.1048P :1 ;KEYSTONE - 1048P - BATTERY HOLDER, 18650, SMD
+"1048P"
+*STM U
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 9
+*DFN 1048P
+~!Mouser Part Number (534-1048P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1048P?qs=9%252Bwcgl%2FJqd1h8Vx3IFpTxA%3D%3D)
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (1048P)
+~!Link Datasheet (http://www.keyelco.com/product-pdf.cfm?p=13959)
+~!Height (-)
+~!3D_Model (1048P)
+"1048P"
+1.1!U 2.1!U 3.1!U 4.1!U 

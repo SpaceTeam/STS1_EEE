@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1048P'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Keystone Electronics", "1048P" (!) = "", "1048P", "Other", "534-1048P", "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1048P?qs=9%252Bwcgl%2FJqd1h8Vx3IFpTxA%3D%3D", "KEYSTONE - 1048P - BATTERY HOLDER, 18650, SMD", "http://www.keyelco.com/product-pdf.cfm?p=13959"
+END_PART
+
+END.

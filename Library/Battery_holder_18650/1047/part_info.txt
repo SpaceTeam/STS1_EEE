@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=1047
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=5
+Version=1.1
+Released=2018-12-04 13:41:50
+Downloaded=2026-09-12 11:59:01
+3D=Y
