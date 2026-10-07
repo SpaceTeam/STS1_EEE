@@ -3363,6 +3363,16 @@
 		)
 		(uuid "7c62b230-30ef-406a-a95a-e49c7e8c49ae")
 	)
+	(text "TX/RC on the connector should be w.r.t COBC"
+		(exclude_from_sim no)
+		(at 52.07 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7eff2797-a941-40c8-8f10-b8cf9591009d")
+	)
 	(text "Pi HAT connector"
 		(exclude_from_sim no)
 		(at 164.338 33.528 0)
@@ -3788,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "0ee8234b-3c4d-457e-939d-8268af83eb93")
+	)
+	(wire
+		(pts
+			(xy 40.64 118.11) (xy 53.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111a7ddf-15d7-4703-9beb-728be5c48051")
 	)
 	(wire
 		(pts
@@ -4461,6 +4481,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 115.57) (xy 52.07 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82ca5ea-3e69-4119-999a-35ab19f0b446")
+	)
+	(wire
+		(pts
 			(xy 238.76 54.61) (xy 242.57 54.61)
 		)
 		(stroke
@@ -4823,7 +4853,7 @@
 			)
 		)
 	)
-	(global_label "RX"
+	(global_label "Pi_RX"
 		(shape input)
 		(at 222.25 54.61 180)
 		(fields_autoplaced yes)
@@ -4835,7 +4865,7 @@
 		)
 		(uuid "1ef37657-4319-4224-b48a-2a218990b20a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.4395 54.61 0)
+			(at 214.5971 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +4877,7 @@
 			)
 		)
 	)
-	(global_label "TX"
+	(global_label "Pi_TX"
 		(shape input)
 		(at 222.25 52.07 180)
 		(fields_autoplaced yes)
@@ -4859,7 +4889,7 @@
 		)
 		(uuid "28df76c2-d549-4f41-963b-8363b3c7726d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.7419 52.07 0)
+			(at 214.8995 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5327,6 +5357,30 @@
 			)
 		)
 	)
+	(global_label "UART_COBC_EDU_2"
+		(shape input)
+		(at 52.07 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e143a74-53b9-44f2-95cf-34ca8cc07325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.06 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EDU_SPI_5"
 		(shape input)
 		(at 87.63 59.69 180)
@@ -5364,6 +5418,30 @@
 		(uuid "957d3c53-d771-46db-870d-6c905335654b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.3034 82.4706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Pi_TX"
+		(shape input)
+		(at 40.64 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c56821b-2812-4767-ae69-353bf3fe34bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.2895 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,6 +5538,30 @@
 		(uuid "af3249ae-0a61-42f8-9de9-9fa82aa29a2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.7182 79.9306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Pi_RX"
+		(shape input)
+		(at 40.64 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b73802ca-a61e-416d-ba69-83aa9e8d8d69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.9871 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,6 +5690,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "UART_COBC_EDU_1"
+		(shape input)
+		(at 52.07 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f52da03c-8791-44c3-b9b0-92fba9555e57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6672,7 +6798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e8f8f01-589d-4167-a639-7cdc60bc6d1d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR023"
 			(at 191.77 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6731,7 +6857,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR018")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6826,7 +6952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b43f70-aeb6-4ca6-bf43-95fa569e71c5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 191.77 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6885,7 +7011,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6903,7 +7029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ddebf17-0482-4e06-9571-659419128892")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 191.77 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6962,7 +7088,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7499,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2484c31-78da-40c1-b2b8-742b61b6ca27")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR018"
 			(at 158.75 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7432,7 +7558,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7604,7 +7730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b29fcc7f-6478-4a50-874c-db6ffc0393de")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR024"
 			(at 191.77 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7663,7 +7789,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR017")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8146,7 +8272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d40be68e-b230-42e6-ac74-c9ef0f4bfa56")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 158.75 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +8331,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c40389-ff05-45ab-8ad8-97bc1240f795")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR019"
 			(at 158.75 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8359,7 +8485,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8377,7 +8503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc80ae62-84cb-44fa-99d0-2b955801893b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 191.77 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8436,7 +8562,7 @@
 		(instances
 			(project "STS1_EEE"
 				(path "/81e05c2b-9a2c-430f-84ee-6a59968cd49a/00000000-0000-0000-0000-000059c45183"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
