@@ -8,7 +8,7 @@
 	(property "Reference" "U**"
 		(at -0.418 0.027 0)
 		(layer "F.SilkS")
-		(uuid "2c0e9400-709a-4a5a-a71b-4ff5fe45100c")
+		(uuid "a93f2872-896c-423d-afbf-2d24c47ee9df")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at -0.418 0.027 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6b7f1c12-27e2-4398-99b5-6192dec5665c")
+		(uuid "ba0d7ccc-d163-4b59-8ae6-d7cfc77b376e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bb28dfc0-08e4-47b3-a134-44aadc1b98a9")
+		(uuid "a0cfd458-e4fa-4cb5-a5cf-04db5f056c58")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "742b7daf-22a5-4cfa-9e1f-ff48a8030c41")
+		(uuid "77d5d30d-9f52-45fa-80d7-22e35c0012c7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,8 +73,8 @@
 		(uuid "311368c0-6e11-4e0e-b725-dfeab66e1b26")
 	)
 	(fp_circle
-		(center -43.871 -9.869)
-		(end -43.871 -9.617)
+		(center -39.8 -14)
+		(end -39.8 -13.748)
 		(stroke
 			(width 0.4)
 			(type solid)
