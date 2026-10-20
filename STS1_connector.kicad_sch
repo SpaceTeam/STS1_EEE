@@ -3483,10 +3483,6 @@
 		(uuid "ad6ea099-db05-4fe1-8d12-0dd38b3dafe2")
 	)
 	(no_connect
-		(at 222.25 92.71)
-		(uuid "aeceaa7f-79ad-4af3-aad1-19f27520b1dd")
-	)
-	(no_connect
 		(at 185.42 72.39)
 		(uuid "b1708e77-a013-4397-97d0-fce4e99b1f1c")
 	)
@@ -3533,10 +3529,6 @@
 	(no_connect
 		(at 242.57 49.53)
 		(uuid "f09e9bb1-991c-440c-b610-14642b3b37fe")
-	)
-	(no_connect
-		(at 222.25 90.17)
-		(uuid "f34e1d4e-e079-4bbe-8c53-27603884c250")
 	)
 	(no_connect
 		(at 185.42 54.61)
@@ -4732,6 +4724,30 @@
 			)
 		)
 	)
+	(global_label "EDU_UPDATE"
+		(shape input)
+		(at 222.25 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c00f1b6-b6f5-402f-b75b-d4fd42660d64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.1329 92.6306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "Pi_RX"
 		(shape input)
 		(at 222.25 54.61 180)
@@ -5105,6 +5121,30 @@
 		(uuid "7855ab1c-b617-4a92-9560-470dbda9c156")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.9737 52.6256 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "EDU_Heartbeat"
+		(shape input)
+		(at 222.25 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b3011d6-c9e8-4000-8bce-31bee190f894")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.0163 90.0906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
