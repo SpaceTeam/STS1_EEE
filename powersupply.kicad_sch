@@ -1572,6 +1572,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "STS1_EEE_lib:CS12ANW03"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CS12ANW03"
+				(at 19.05 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CS12ANW03"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.nkkswitches.com.hk/products/Slides/Slides%20CS/CS12ANW03/"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "NKK SWITCHES - CS12ANW03 - SWITCH, SLIDE, SPDT, 3A, 250V, TH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "13.6"
+				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "633-CS12ANW03"
+				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/CS12ANW03?qs=4P1McwaGddbVHu%252BBZT0egw%3D%3D"
+				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "NKK Switches"
+				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CS12ANW03"
+				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "CS12ANW03_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "STS1_VRM-rescue:CP-Device"
 			(pin_numbers
 				(hide yes)
@@ -1721,156 +1913,6 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2226,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 48.26) (xy 293.37 52.07)
+			(xy 284.48 48.26) (xy 284.48 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2346,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 45.72) (xy 295.91 45.72)
+			(xy 284.48 45.72) (xy 294.64 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2373,6 +2415,16 @@
 			(type default)
 		)
 		(uuid "642e3d9f-bc99-4cee-af40-3b58ff0b3281")
+	)
+	(wire
+		(pts
+			(xy 290.83 48.26) (xy 290.83 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686b3d64-6b2f-4976-a48b-995767ae6051")
 	)
 	(wire
 		(pts
@@ -2596,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 45.72) (xy 273.05 48.26)
+			(xy 264.16 45.72) (xy 264.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2626,13 +2678,13 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 45.72) (xy 309.88 45.72)
+			(xy 294.64 48.26) (xy 290.83 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d85f5863-f51c-443d-87e2-8fdb282bcfc2")
+		(uuid "d84325dc-e791-4285-baea-51f1b853ecba")
 	)
 	(wire
 		(pts
@@ -2673,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "e7ac43f2-b37d-4a71-ba1f-0cf526594e32")
+	)
+	(wire
+		(pts
+			(xy 290.83 55.88) (xy 292.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b22edf-df6d-472f-b95a-a393f6698a82")
 	)
 	(wire
 		(pts
@@ -2768,7 +2830,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 309.88 45.72 0)
+		(at 292.1 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2778,7 +2840,7 @@
 		)
 		(uuid "aa64105a-807f-4d3b-b059-cce42eef4eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.6258 45.72 0)
+			(at 298.8458 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3650,8 +3712,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 300.99 45.72 0)
+		(lib_id "STS1_EEE_lib:CS12ANW03")
+		(at 294.64 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3659,30 +3721,55 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47ac09e4-f570-4ab8-95da-0228c9d671cd")
 		(property "Reference" "SW1"
-			(at 300.99 39.37 0)
+			(at 306.832 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 300.99 41.91 0)
+			(at 302.768 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 300.99 45.72 0)
+		(property "Footprint" "CS12ANW03"
+			(at 313.69 140.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.nkkswitches.com.hk/products/Slides/Slides%20CS/CS12ANW03/"
+			(at 313.69 240.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "NKK SWITCHES - CS12ANW03 - SWITCH, SLIDE, SPDT, 3A, 250V, TH"
+			(at 294.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,8 +3779,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 300.99 45.72 0)
+		(property "Height" "13.6"
+			(at 313.69 440.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,10 +3788,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 300.99 45.72 0)
+		(property "Mouser Part Number" "633-CS12ANW03"
+			(at 313.69 540.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,6 +3800,43 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/CS12ANW03?qs=4P1McwaGddbVHu%252BBZT0egw%3D%3D"
+			(at 313.69 640.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "NKK Switches"
+			(at 313.69 740.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CS12ANW03"
+			(at 313.69 840.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "2"
@@ -3719,6 +3844,9 @@
 		)
 		(pin "1"
 			(uuid "7ff7d9a1-d991-4923-a60f-9483b529afdb")
+		)
+		(pin "3"
+			(uuid "14923d4f-c79c-49d1-ad1c-bd169866c251")
 		)
 		(instances
 			(project "STS1_EEE"
@@ -3928,7 +4056,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 293.37 52.07 0)
+		(at 284.48 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3938,7 +4066,7 @@
 		(dnp no)
 		(uuid "5b429c51-5110-4cde-ba3d-0b355c84836d")
 		(property "Reference" "#PWR047"
-			(at 293.37 58.42 0)
+			(at 284.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,7 +4077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.497 56.4642 0)
+			(at 284.607 56.4642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3959,7 +4087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 52.07 0)
+			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3970,7 +4098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 52.07 0)
+			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +4109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 293.37 52.07 0)
+			(at 284.48 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5256,7 +5384,7 @@
 	)
 	(symbol
 		(lib_id "STS1_EEE_lib:1048P")
-		(at 273.05 45.72 0)
+		(at 264.16 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5267,7 +5395,7 @@
 		(fields_autoplaced yes)
 		(uuid "996a993f-9fc3-48a1-8c01-c6cc06eebeae")
 		(property "Reference" "U4"
-			(at 283.21 38.1 0)
+			(at 274.32 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5277,7 +5405,7 @@
 			)
 		)
 		(property "Value" "1047"
-			(at 283.21 40.64 0)
+			(at 274.32 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5287,7 +5415,7 @@
 			)
 		)
 		(property "Footprint" "STS_EEE:1048P"
-			(at 289.56 140.64 0)
+			(at 280.67 140.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5299,7 +5427,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=13959"
-			(at 289.56 240.64 0)
+			(at 280.67 240.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5311,7 +5439,7 @@
 			)
 		)
 		(property "Description" "KEYSTONE - 1048P - BATTERY HOLDER, 18650, SMD"
-			(at 273.05 45.72 0)
+			(at 264.16 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5322,7 +5450,7 @@
 			)
 		)
 		(property "Height" "14.85"
-			(at 289.56 440.64 0)
+			(at 280.67 440.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5334,7 +5462,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-1048P"
-			(at 289.56 540.64 0)
+			(at 280.67 540.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5346,7 +5474,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1048P?qs=9%252Bwcgl%2FJqd1h8Vx3IFpTxA%3D%3D"
-			(at 289.56 640.64 0)
+			(at 280.67 640.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,7 +5486,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 289.56 740.64 0)
+			(at 280.67 740.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5498,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1048P"
-			(at 289.56 840.64 0)
+			(at 280.67 840.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
