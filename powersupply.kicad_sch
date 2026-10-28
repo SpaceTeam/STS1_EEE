@@ -1362,7 +1362,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "STS1_EEE_lib:1048P"
+		(symbol "STS1_EEE_lib:1049"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1379,7 +1379,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "1048P"
+			(property "Value" "1049"
 				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1390,7 +1390,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "1048P"
+			(property "Footprint" "1049"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1402,7 +1402,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=13959"
+			(property "Datasheet" "http://www.keyelco.com/product.cfm/product_id/921"
 				(at 16.51 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1414,7 +1414,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "KEYSTONE - 1048P - BATTERY HOLDER, 18650, SMD"
+			(property "Description" "KEYSTONE - 1049 - BATTERY HOLDER, 18650, THROUGH HOLE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1425,7 +1425,7 @@
 					)
 				)
 			)
-			(property "Height" ""
+			(property "Height" "14"
 				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1437,7 +1437,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "534-1048P"
+			(property "Mouser Part Number" "534-1049"
 				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1449,7 +1449,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1048P?qs=9%252Bwcgl%2FJqd1h8Vx3IFpTxA%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1049?qs=%2F7TOpeL5Mz78b0pqEFIl5w%3D%3D"
 				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1473,7 +1473,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "1048P"
+			(property "Manufacturer_Part_Number" "1049"
 				(at 16.51 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1485,10 +1485,10 @@
 					(justify left top)
 				)
 			)
-			(symbol "1048P_1_1"
+			(symbol "1049_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -5.08)
+					(end 15.24 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1534,7 +1534,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 0 180)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1552,7 +1552,7 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -2.54 180)
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1562,6 +1562,96 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2186,6 +2276,36 @@
 		(color 0 0 0 0)
 		(uuid "fe7a003e-504b-4a01-9583-9d1e856fbad2")
 	)
+	(no_connect
+		(at 264.16 50.8)
+		(uuid "222aa191-ac88-4f44-ba5d-780dd42dc3a7")
+	)
+	(no_connect
+		(at 264.16 55.88)
+		(uuid "53838b30-0c9b-4cda-bf2f-efb67fca8e9a")
+	)
+	(no_connect
+		(at 264.16 45.72)
+		(uuid "85e3e0ee-e1bf-47eb-991f-939888f947b1")
+	)
+	(no_connect
+		(at 264.16 53.34)
+		(uuid "b843d7b4-55b5-42bb-a347-d04632dd72b7")
+	)
+	(no_connect
+		(at 264.16 48.26)
+		(uuid "efcdf3d9-0226-4f27-9e17-e15f1e8af799")
+	)
+	(wire
+		(pts
+			(xy 284.48 45.72) (xy 285.75 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007bb507-66f1-4c3b-9e69-3b48b59dd6c2")
+	)
 	(wire
 		(pts
 			(xy 193.675 62.865) (xy 193.675 61.595)
@@ -2228,6 +2348,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 48.26) (xy 295.91 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18437798-7e0b-472c-9712-db12031ddf33")
+	)
+	(wire
+		(pts
 			(xy 94.615 48.895) (xy 94.615 47.625)
 		)
 		(stroke
@@ -2265,16 +2395,6 @@
 			(type default)
 		)
 		(uuid "249c4437-334a-4602-89ea-20aa27da390e")
-	)
-	(wire
-		(pts
-			(xy 284.48 48.26) (xy 284.48 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2737a108-4dd1-4cf0-a69f-65c8bf0bfbc8")
 	)
 	(wire
 		(pts
@@ -2388,16 +2508,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 45.72) (xy 294.64 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b28735a-752c-4c3a-98c8-88be47be9214")
-	)
-	(wire
-		(pts
 			(xy 120.015 76.835) (xy 120.015 75.565)
 		)
 		(stroke
@@ -2418,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 48.26) (xy 290.83 55.88)
+			(xy 292.1 50.8) (xy 292.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2495,6 +2605,16 @@
 			(type default)
 		)
 		(uuid "8381abc0-9c4d-4759-8cbf-baa5f35928e7")
+	)
+	(wire
+		(pts
+			(xy 285.75 41.91) (xy 285.75 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b7aa66-3b05-4dd8-a95e-9ae68878bade")
 	)
 	(wire
 		(pts
@@ -2578,6 +2698,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 50.8) (xy 285.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dbc849-03d7-4f53-8923-b05daf7de2b2")
+	)
+	(wire
+		(pts
 			(xy 170.815 62.865) (xy 170.815 71.755)
 		)
 		(stroke
@@ -2648,13 +2778,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 45.72) (xy 264.16 48.26)
+			(xy 284.48 53.34) (xy 285.75 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d20d741d-5768-4298-b0cd-bf61e37c1a10")
+		(uuid "d45309d2-fb27-4f12-9d8f-3f29367d013c")
 	)
 	(wire
 		(pts
@@ -2678,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 48.26) (xy 290.83 48.26)
+			(xy 295.91 50.8) (xy 292.1 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2728,13 +2858,23 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 55.88) (xy 292.1 55.88)
+			(xy 292.1 58.42) (xy 293.37 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8b22edf-df6d-472f-b95a-a393f6698a82")
+	)
+	(wire
+		(pts
+			(xy 285.75 50.8) (xy 285.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15d9e09-bde9-488d-96c6-c56e2c6aa05b")
 	)
 	(wire
 		(pts
@@ -2830,7 +2970,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 292.1 55.88 0)
+		(at 293.37 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2840,7 +2980,7 @@
 		)
 		(uuid "aa64105a-807f-4d3b-b059-cce42eef4eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.8458 55.88 0)
+			(at 300.1158 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3713,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "STS1_EEE_lib:CS12ANW03")
-		(at 294.64 45.72 0)
+		(at 295.91 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3723,7 +3863,7 @@
 		(dnp no)
 		(uuid "47ac09e4-f570-4ab8-95da-0228c9d671cd")
 		(property "Reference" "SW1"
-			(at 306.832 41.656 0)
+			(at 308.102 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3734,7 +3874,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 302.768 55.118 0)
+			(at 304.038 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3745,7 +3885,7 @@
 			)
 		)
 		(property "Footprint" "CS12ANW03"
-			(at 313.69 140.64 0)
+			(at 314.96 143.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3757,7 +3897,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nkkswitches.com.hk/products/Slides/Slides%20CS/CS12ANW03/"
-			(at 313.69 240.64 0)
+			(at 314.96 243.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,7 +3909,7 @@
 			)
 		)
 		(property "Description" "NKK SWITCHES - CS12ANW03 - SWITCH, SLIDE, SPDT, 3A, 250V, TH"
-			(at 294.64 45.72 0)
+			(at 295.91 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +3920,7 @@
 			)
 		)
 		(property "Height" "13.6"
-			(at 313.69 440.64 0)
+			(at 314.96 443.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +3932,7 @@
 			)
 		)
 		(property "Mouser Part Number" "633-CS12ANW03"
-			(at 313.69 540.64 0)
+			(at 314.96 543.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +3944,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/CS12ANW03?qs=4P1McwaGddbVHu%252BBZT0egw%3D%3D"
-			(at 313.69 640.64 0)
+			(at 314.96 643.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3816,7 +3956,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NKK Switches"
-			(at 313.69 740.64 0)
+			(at 314.96 743.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +3968,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CS12ANW03"
-			(at 313.69 840.64 0)
+			(at 314.96 843.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4056,7 +4196,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 284.48 52.07 0)
+		(at 285.75 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4066,7 +4206,7 @@
 		(dnp no)
 		(uuid "5b429c51-5110-4cde-ba3d-0b355c84836d")
 		(property "Reference" "#PWR047"
-			(at 284.48 58.42 0)
+			(at 285.75 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4077,7 +4217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 284.607 56.4642 0)
+			(at 285.623 37.5158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4087,7 +4227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.48 52.07 0)
+			(at 285.75 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,7 +4238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.48 52.07 0)
+			(at 285.75 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 52.07 0)
+			(at 285.75 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5383,7 +5523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "STS1_EEE_lib:1048P")
+		(lib_id "STS1_EEE_lib:1049")
 		(at 264.16 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -5404,7 +5544,7 @@
 				)
 			)
 		)
-		(property "Value" "1047"
+		(property "Value" "1049"
 			(at 274.32 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STS_EEE:1048P"
+		(property "Footprint" "1049"
 			(at 280.67 140.64 0)
 			(hide yes)
 			(show_name no)
@@ -5426,7 +5566,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=13959"
+		(property "Datasheet" "http://www.keyelco.com/product.cfm/product_id/921"
 			(at 280.67 240.64 0)
 			(hide yes)
 			(show_name no)
@@ -5438,7 +5578,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "KEYSTONE - 1048P - BATTERY HOLDER, 18650, SMD"
+		(property "Description" "KEYSTONE - 1049 - BATTERY HOLDER, 18650, THROUGH HOLE"
 			(at 264.16 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5449,7 +5589,7 @@
 				)
 			)
 		)
-		(property "Height" "14.85"
+		(property "Height" "14"
 			(at 280.67 440.64 0)
 			(hide yes)
 			(show_name no)
@@ -5461,7 +5601,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "534-1048P"
+		(property "Mouser Part Number" "534-1049"
 			(at 280.67 540.64 0)
 			(hide yes)
 			(show_name no)
@@ -5473,7 +5613,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1048P?qs=9%252Bwcgl%2FJqd1h8Vx3IFpTxA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1049?qs=%2F7TOpeL5Mz78b0pqEFIl5w%3D%3D"
 			(at 280.67 640.64 0)
 			(hide yes)
 			(show_name no)
@@ -5497,7 +5637,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1048P"
+		(property "Manufacturer_Part_Number" "1049"
 			(at 280.67 840.64 0)
 			(hide yes)
 			(show_name no)
@@ -5520,6 +5660,21 @@
 		)
 		(pin "1"
 			(uuid "4d7197c3-3c3b-4d48-b21b-9e1f0a5f7ce0")
+		)
+		(pin "9"
+			(uuid "681aead2-d580-4232-900c-6548ecdcf49d")
+		)
+		(pin "8"
+			(uuid "44fc9031-56f4-4ca9-afd6-a46bce8d3163")
+		)
+		(pin "7"
+			(uuid "0013bbe5-30f7-489f-9b4b-9eadf46ad223")
+		)
+		(pin "6"
+			(uuid "100cdcb0-7238-413f-9d8b-036dea5b5f37")
+		)
+		(pin "5"
+			(uuid "73be69d0-7bc5-4039-9b13-d3d5e02c6fac")
 		)
 		(instances
 			(project "STS1_EEE"
